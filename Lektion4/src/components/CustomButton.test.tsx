@@ -52,5 +52,12 @@ describe("Custom Button Component States", () => {
     expect(customButtonComponent).toHaveClass(ButtonState.idle)
     fireEvent.click(customButtonComponent)
     expect(customButtonComponent).toHaveClass(ButtonState.clicked)
+    
+
   })
+  // Test failed test for GitHub Actions
+  test("Intentional fail test for GitHub Actions", () => {
+    expect(true).toBe(false) // Detta kommer alltid att faila
+  })
+  
 })
