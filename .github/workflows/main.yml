@@ -1,15 +1,15 @@
 name: TDD_Lektion_4_Frontend_Jest_Test
 
 on:
- # Trigger the workflow on push to the 'main' branch
+ # Trigger the workflow on push to the 'master' branch
  push:
    branches:
-     - main
+     - master
 
- # Trigger the workflow on a pull request targeting the 'main' branch
+ # Trigger the workflow on a pull request targeting the 'master' branch
  pull_request:
    branches:
-     - main
+     - master
 
 # Describe the actual job
 jobs:
