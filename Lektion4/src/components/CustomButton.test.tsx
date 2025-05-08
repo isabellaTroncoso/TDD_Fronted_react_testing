@@ -56,8 +56,8 @@ describe("Custom Button Component States", () => {
 
   })
   // Test failed test for GitHub Actions
-  test("Intentional fail test for GitHub Actions", () => {
-    expect(true).toBe(false) // Detta kommer alltid att faila
+  test("Fixed the problem", () => {
+    expect(2 + 2).toBe(4);
   })
   
 })
